@@ -177,3 +177,95 @@ footer i:hover {
     vertical-align: middle;
     width: 100%;
 }
+
+/* Form section */
+
+.form-section {
+    background-color: rgb(0, 0, 0);
+    height: 50rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.signup-form {
+    border: 5px solid rgb(58, 122, 218);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    margin: auto;
+    width: 40%;
+    min-width: 23.5rem;
+    padding: 10px;
+
+}
+
+.signup-form h2 {
+    color: rgb(58, 122, 218);
+    margin-bottom: 1.1rem;
+    text-align: center;
+}
+
+/* Input fields */
+
+.input-field {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 100%;
+    height: 2rem;
+    margin: 5px 0 20px 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+.input-field:hover {
+    border-color: rgb(58, 122, 218);
+}
+
+/* Submit button */
+
+.submit-btn {
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(58, 122, 218);
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.submit-btn:hover {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+/* Input type radio */
+
+input[type="radio"] {
+    position: fixed;
+    opacity: 0;
+}
+
+input[type="radio"]+label {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border: 2px solid rgb(58, 122, 218);
+    border-radius: 5px;
+}
+
+input[type="radio"]:checked+label {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    background-color: rgb(58, 122, 218);
+}
+
+/* Application received page */
+
+.application-received {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
