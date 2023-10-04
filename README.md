@@ -35,11 +35,7 @@ This is the website to encourage publinc to visit Brecon Beacons in Wales. It is
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    Wireframes created in the notebook.
 
 ## Features
 
@@ -59,9 +55,9 @@ This is the website to encourage publinc to visit Brecon Beacons in Wales. It is
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over. Hover function was also used on the Contact page, when hovering over Sign Up section.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -72,8 +68,6 @@ This is the website to encourage publinc to visit Brecon Beacons in Wales. It is
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
