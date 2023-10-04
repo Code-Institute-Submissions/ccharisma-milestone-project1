@@ -30,12 +30,17 @@ a {
 
 h1 {
     font-size: 3rem;
-    letter-spacing: 2px;
+    color:rgb(255, 255, 255)
 }
 
 h2 {
     font-size: 2rem;
-    color:rgb(58, 122, 218)
+    color:rgb(255, 255, 255)
+}
+
+h3 {
+    font-size: 2rem;
+    color:rgb(255, 255, 255)
 }
 
 p {
@@ -67,7 +72,7 @@ nav li {
     padding: 8px 10px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
-    background-color:  rgb(58, 122, 218);
+    background-color:  rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
@@ -98,6 +103,7 @@ nav li:hover {
     flex-wrap: nowrap;
     flex-direction: row;
     padding-left: 2em;
+    padding-right: 2em;
 }
 
 .box-img {
@@ -123,6 +129,7 @@ nav li:hover {
     flex-wrap: nowrap;
     flex-direction: row;
     padding-left: 2em;
+    padding-right: 2em;
 }
 
 .box-informed {
@@ -151,12 +158,12 @@ nav li:hover {
 }
 
 .container-about a {
-    border: 2px solid rgb(58, 122, 218);
+    border: 2px solid rgb(2, 2, 2);
     padding: 0 5px;
 }
 
 .container-about a:hover {
-    background-color: rgb(147, 168, 248);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
@@ -167,7 +174,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1.9rem;
-    border-top: 3px solid rgb(58, 122, 218);
+    border-top: 3px solid rgb(2, 2, 2);
     padding: 2rem 0;
 }
 
@@ -177,7 +184,7 @@ footer i {
 
 footer i:hover {
     font-size: 2.5rem;
-    color: rgb(58, 122, 218);
+    color: rgb(255, 255, 255);
 }
 
 /* Gallery */
@@ -186,7 +193,7 @@ footer i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(58, 122, 218);
+    color: rgb(255, 255, 255);
     padding: 5px 0 5px 0;
 }
 
@@ -219,7 +226,7 @@ footer i:hover {
 }
 
 .signup-form {
-    border: 5px solid rgb(58, 122, 218);
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -232,7 +239,7 @@ footer i:hover {
 }
 
 .signup-form h2 {
-    color: rgb(58, 122, 218);
+    color: rgb(255, 255, 255);
     margin-bottom: 1.1rem;
     text-align: center;
 }
@@ -250,7 +257,7 @@ footer i:hover {
 }
 
 .input-field:hover {
-    border-color: rgb(58, 122, 218);
+    border-color: rgb(255, 255, 255);
 }
 
 /* Submit button */
@@ -261,13 +268,13 @@ footer i:hover {
     padding: 1rem 2rem;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(58, 122, 218);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     display: block;
 }
 
 .submit-btn:hover {
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
@@ -282,14 +289,14 @@ input[type="radio"]+label {
     display: inline-block;
     color: rgb(255, 255, 255);
     padding: 10px 10px;
-    border: 2px solid rgb(58, 122, 218);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
 }
 
 input[type="radio"]:checked+label {
     color: rgb(0, 0, 0);
     font-weight: 900;
-    background-color: rgb(58, 122, 218);
+    background-color: rgb(255, 255, 255);
 }
 
 /* Application received page */
@@ -317,18 +324,18 @@ input[type="radio"]:checked+label {
         text-align: center;
     }
 
-    h2 {
+    h1 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
 
-    h3 {
+    h2 {
         font-size: 1.2rem;
     }
 
-    h4 {
+    h3 {
         font-size: 1rem;
-        text-decoration: underline rgb(58, 122, 218) 3px;
+        
     }
 
     .container-one {
@@ -362,7 +369,7 @@ input[type="radio"]:checked+label {
         padding: 2px 5px;
         border: 1px solid rgb(255, 255, 255);
         border-radius: 5px;
-        background-color: rgb(58, 122, 218)
+        background-color: rgb(255, 255, 255)
     }
 
     .container-two {
@@ -428,11 +435,11 @@ input[type="radio"]:checked+label {
         margin-right: 1rem;
     }
 
-    h3 {
+    h2 {
         font-size: 1.5rem;
     }
 
-    h4 {
+    h3 {
         font-size: 1.3rem;
     }
 
@@ -467,7 +474,7 @@ input[type="radio"]:checked+label {
 
 @media screen and (max-width: 900px) {
 
-    h3 {
+    h2 {
         font-size: 2rem;
     }
 
