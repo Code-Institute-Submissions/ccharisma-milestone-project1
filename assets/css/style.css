@@ -197,23 +197,12 @@ footer i:hover {
     padding: 5px 0 5px 0;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0px 20px;
-}
-
-.column img {
-    margin-top: 8px;
-    margin-bottom: 15px;
-    vertical-align: middle;
-    width: 100%;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
 }
 
 /* Form section */
