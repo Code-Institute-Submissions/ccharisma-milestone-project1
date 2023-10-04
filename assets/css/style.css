@@ -91,14 +91,12 @@ nav li:hover {
 
 .container-one {
     display: flex;
-    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: flex-start;
-    text-align: left;
-    align-items: right;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2em;
 }
 
 .box-img {
@@ -108,25 +106,57 @@ nav li:hover {
     margin-top: 2rem;
 }
 
+.box-inform {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 /* Main content, container two, informed */
 
 .container-two {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: flex-end;
-    text-align: right;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 4rem;
-    padding-bottom: 3rem;
+    padding-left: 2em;
 }
 
 .box-informed {
     padding-left: 2rem;
     display: flex;
     flex-direction: column-reverse;
+}
+
+/* Container three, about us section */
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.container-about a {
+    border: 2px solid rgb(58, 122, 218);
+    padding: 0 5px;
+}
+
+.container-about a:hover {
+    background-color: rgb(147, 168, 248);
+    color: rgb(0, 0, 0);
 }
 
 /* Footer */
